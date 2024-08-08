@@ -7,7 +7,7 @@ function NavBar() {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
-          Aaqil Portfolio
+         Logo
         </Typography>
         <Button color="inherit" component={Link} to="/">
           Home

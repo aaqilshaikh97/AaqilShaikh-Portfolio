@@ -4,6 +4,7 @@ import Home from "../layout/home";
 import About from "../layout/about";
 import Contact from "../layout/contact";
 import Portfolio from "../layout/Portfolio";
+
 function Routes() {
   return (
     <RouterRoutes>

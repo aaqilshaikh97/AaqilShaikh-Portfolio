@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import NavBar from "./components/navbar";
-import Routes from "./routes";
+// import Routes from "./routes";
+import Dashboard from "./layout/dashboard";
 
 function App() {
   return (
     <Router>
-      <NavBar />
-      <Routes />
+      {/* <Routes /> */}
+      <Dashboard />
     </Router>
   );
 }
